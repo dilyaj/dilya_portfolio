@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "dev": "NODE_ENV=development nodemon server.js"  
+    "dev": "NODE_ENV=development nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -24,8 +24,11 @@
   "homepage": "https://github.com/dilyaj/dilya_portfolio#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "express-react-views": "^0.11.0",
     "method-override": "^3.0.0",
-    "mongoose": "^5.11.5"
+    "mongoose": "^5.11.5",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
   },
   "devDependencies": {
     "dotenv": "^8.2.0",

@@ -1,0 +1,18 @@
+/* Layout */
+* {
+    background-color: #e8e8e8;
+}
+
+/* INDEX */
+.index-page li {
+    background-color: white;
+    
+}
+img {
+    width: 370px;
+    height: auto;
+
+}
+
+
+/* SHOW */
