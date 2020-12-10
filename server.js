@@ -102,7 +102,7 @@ app.get('/guestbook/', (req, res) => {
 
 // create - post
 app.post('/guestbook', (req, res) => {
-  Guestbook.create(req.body, (err, createdGuestbook) => {
+  Guestbook.create(req.params.id, (err, createdGuestbook) => {
     if(!err){
       res.redirect('/guestbook')
     } else {
